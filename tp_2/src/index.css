@@ -1,0 +1,476 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #dfdfdf;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../public/map.webp"); /* Utilisation de l'image map.webp */
+  background-position: center;
+  background-size: cover;
+}
+.login {
+  width: 500px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.box2 i {
+  font-size: 17px;
+  margin-right: 15px;
+  color: azure;
+}
+.box3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: azure;
+}
+.box4 .input,
+.box5 .input {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 20px;
+  outline: none;
+  background-color: whitesmoke;
+}
+::placeholder {
+  font-size: 17px;
+  color: black;
+}
+.box6 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box6 a {
+  text-decoration: none;
+  color: black;
+}
+.box7 {
+  display: flex;
+  justify-content: center;
+}
+.box7 button {
+  font-size: 20px;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background-color: black;
+  color: aliceblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+.input:focus {
+  width: 105%;
+}
+button:active {
+  font-size: 23px;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../public/map.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+/* New Styles for the Form */
+.ajouter-user {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ajouter-user td {
+  padding: 8px;
+}
+
+.ajouter-user p.Erreur {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input-registre {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-ajouter {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-ajouter:hover {
+  background-color: #0056b3;
+}
+
+.p-inscrit {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.lien-ins {
+  text-decoration: none;
+  color: #007bff;
+  border: 20px;
+}
+
+.lien-ins:hover {
+  text-decoration: underline;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../public/map.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+/* New Styles for the User List Section */
+/* Overall Container */
+.contain_user {
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Header styling */
+.contain_user h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+/* logo suppp */
+.logo_supp {
+  width: 40px;
+  height: 40px;
+}
+/* Paragraph styling */
+.contain_user p {
+  line-height: normal !important;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Table styling */
+.contain_user .grand-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #0d3045;
+  margin-left: 20%;
+  color: #4db2ff;
+  margin: auto;
+}
+
+.contain_user th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+/* User info styling */
+.contain_user .logo {
+  width: 50px;
+  height: 40px;
+}
+
+.contain_user .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.contain_user .user-info img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contain_user .user-info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.contain_user .info-user {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+.contain_user .info-user:hover {
+  opacity: 0.8;
+}
+
+.contain_user .info-user .logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Link styling */
+.contain_user .lien {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.contain_user .lien:hover {
+  border: 1px solid #333;
+  border-radius: 50%;
+}
+
+/* Spinner styling */
+.contain_user .spinner {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin-left: 350px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-item:hover {
+  background-color: #555;
+}
+/* Styles généraux */
+.container {
+  margin-top: 40px;
+}
+
+/* Styles pour la table d'informations utilisateur */
+.grand-table {
+  width: 70%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #0d3045;
+  margin-left: 20%;
+  color: #4db2ff;
+  margin: auto;
+}
+
+.grand-table th {
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+.grand-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  height: 40px;
+}
+
+.lien-ins {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lien-ins:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.lien {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+.lien:hover {
+  border: 1px solid #333;
+  border-radius: 50%;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin-left: 350px;
+}
+
+/* Autres styles */
+/* ... (les autres styles que vous avez fournis) ... */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Css de nabar de me */
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.navbar-list button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar-list button:focus {
+  outline: none;
+}
+
+.navbar-list .active button {
+  font-weight: bold;
+}
+/* Style de base pour ajouter le lien */
+.info-user {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  border-radius: 5px;
+  text-decoration: none; /* Supprimer le soulignement par défaut */
+  cursor: pointer; /* Montrer que c'est cliquable */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition en douceur lors du survol */
+}
+
+/* Style au survol */
+.info-user:hover {
+  background-color: #0056b3; /* Nouvelle couleur de fond */
+  color: #fff; /* Nouvelle couleur du texte */
+}
